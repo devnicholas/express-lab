@@ -6,6 +6,10 @@ class UserController {
 
     res.send(list);
   }
+
+  static index(req, res) {
+    res.send("Hello World!");
+  }
 }
 
 module.exports = UserController;
